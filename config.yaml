@@ -1,0 +1,15 @@
+path: C:\Skin Scanner.v1i.yolov8\data # dataset root directory
+train: train/images
+val: valid/images
+test: test/images
+
+# classes
+names:
+  0: "acne"
+  1: "eczema"
+  2: "herpes zoster"
+  3: "hives"
+  4: "lupus"
+  5: "raynauds"
+  6: "tinea"
+  7: "vitiligo"

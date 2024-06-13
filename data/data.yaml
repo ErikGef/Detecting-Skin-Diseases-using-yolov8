@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['acne', 'eczema', 'herpes zoster', 'hives', 'lupus', 'raynauds', 'tinea', 'vitiligo']
+
+roboflow:
+  workspace: skin-disease-workspace
+  project: skin-scanner
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skin-disease-workspace/skin-scanner/dataset/1
